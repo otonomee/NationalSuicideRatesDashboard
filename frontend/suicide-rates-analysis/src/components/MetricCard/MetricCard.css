@@ -1,0 +1,10 @@
+.metric-card {
+  flex: 1 1 calc(50% - 40px); /* Subtract the container's padding from the width */
+  max-width: calc(50% - 40px); /* Subtract the container's padding from the max-width */
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px; /* Space at the bottom of each card */
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
